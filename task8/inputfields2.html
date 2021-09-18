@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Fields 2</title>
+    <meta charset="UTF-8">
+    <meta name="inputfields2" content="Information Fields">
+</head>
+
+<body>
+    <header>
+        <h2>Please fill the fields</h2>
+    </header>
+    <form action="a.html" method="POST">
+        <div class="input">
+            <label for="1" style="font-weight: bold;">Username</label><br>
+            <input type="text" required placeholder="first name" maxlength="5" id="1" style="border-color:darkseagreen" name="name">
+        </div>
+        <hr color="violet" size="2">
+
+        <div class="input">
+            <label for="2" style="font-weight: bold;">Password</label><br>
+            <input type="password" id="2" required placeholder="your password" maxlength="5" style="border-color:darkseagreen;" name="password">
+        </div>
+        <hr color="violet" size="2">
+
+        <div class="input">
+            <label for="3" style="font-weight: bold;">Email</label> <br>
+            <input type="email" id="3" readonly value="fatenhashim73s@gmail.com" style="border-color:darkseagreen;" name="email">
+        </div>
+        <hr color="violet" size="2">
+
+        <div class="input">
+            <label for="4" style="font-weight: bold;">Subject</label> <br>
+            <input type="text" id="4" required placeholder="your subject" maxlength="5" style="border-color:darkseagreen;" name="subject">
+        </div>
+
+        <div class="input">
+            <input type="hidden" name="id" value="123456789">
+        </div>
+        <hr color="violet" size="2">
+
+        <div>
+            <label><h3>Programs</h3></label>
+            <input type="checkbox" name="pro" id="offec" value="Word">
+            <label for="offec">Word</label>
+            <input type="checkbox" name="pro" id="adobe" value="adobe xd">
+            <label for="adobe">Adobe XD</label>
+            <input type="checkbox" name="pro" id="trello" value="trello">
+            <label for="trello">Trello</label>
+            <hr color="violet" size="2">
+        </div>
+
+        <div>
+            <label><h3>Operating System</h3></label>
+            <input type="radio" name="os" id="win" value="windows">
+            <label for="win">Windows</label>
+            <input type="radio" name="os" id="mac" value="mac">
+            <label for="mac">Mac</label>
+            <input type="radio" name="os" id="linux" value="linux">
+            <label for="linux">Linux</label>
+            <hr color="violet" size="2">
+        </div>
+
+        <div>
+            <label style="font-weight: bold;"><h3>Defranc btween checkbox and radio buttons</h3></label>
+            <p><b>Radio button : </b> let a user select ONLY ONE of a limited number of choices. </p>
+            <p><b>checkbox button :</b> let a user select ZERO or MORE options of a limited number of choices.</p>
+
+            <hr color="violet" size="2">
+        </div>
+
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+
+</html>
