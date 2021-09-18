@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Fields</title>
+    <meta charset="UTF-8">
+    <meta name="inputfields" content="Information Fields">
+</head>
+
+<body>
+    <header>
+        <h1>Please fill the fields</h1>
+    </header>
+    <form action="a.html" method="POST">
+        <div class="input">
+            <label>Username</label><br>
+            <input type="text" name="username" required placeholder="your name">
+        </div>
+        <hr>
+
+        <div class="input">
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="your password">
+        </div>
+        <hr>
+
+        <div class="input">
+            <label>Mobile</label> <br>
+            <input type="tel" name="mobile" placeholder="your mobile">
+        </div>
+        <hr>
+
+        <div class="input">
+            <label>Email</label> <br>
+            <input type="email" name="email" required placeholder="your email">
+        </div>
+        <hr>
+
+        <div class="input">
+            <label>Subject</label> <br>
+            <input type="text" name="subject" placeholder="your subject">
+        </div>
+
+        <div class="input">
+            <input type="hidden" name="id" value="123456789">
+        </div>
+        <hr>
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+
+</html>
